@@ -57,4 +57,15 @@ Boilerplate for creating a CSS positioning cheat sheet
 - Note how the distance between the text and the border is greater than before
 - Note how the entire box grows to accommodate the padding in addition to the
   content size
+- See http://www.w3schools.com/css/css_padding.asp on how to target each side
+  of the elements individually
+- Commit your changes
+
+
+
+- Update the CSS to set the margin parameter to 10px
+- Note how the values in the box model changes in Chrome Developer Tools
+- Note how the boxes are no longer touching and have space on all sides
+- See http://www.w3schools.com/css/css_margin.asp on how to target each side
+  of the elements individually
 - Commit your changes

@@ -157,6 +157,7 @@ Boilerplate for creating a CSS positioning cheat sheet
 - Pick any box and give it an id of "the-relative-box"
 
       <div id="the-relative-box" class="box">10</div>
+
 - Add styling to set the background-color of this element to yellow
   so it can be easily differentiated
 - Add styling to set the display value for this element to relative
@@ -187,6 +188,7 @@ Boilerplate for creating a CSS positioning cheat sheet
   - remains in the normal document flow
   - offset relative to its normal position (i.e., display: relative alone)
     does not change anything
+- Commit your changes
 
 
 
@@ -194,11 +196,40 @@ Boilerplate for creating a CSS positioning cheat sheet
 
 - Pick any box and give it an id of "the-absolute-box"
 
+    <div id="the-relative-box" class="box">13</div>
 
-# `position: absolute;`
+- Add styling to set the background-color of this element to green
+  so it can be easily differentiated
+- Add styling to set display value for this element to absolute
+  and the top and left offsets to 50px
 
-- When positioned _absolutely_, an element:
-	- will NOT remain within the normal flow of the document.
-	- will be offset with respect to the position of its closest non-statically positioned parent.
+      #the-absolute-box {
+        position: absolute;
+        background-color: green;
+        top: 50px;
+        left: 50px;
+      }
 
----
+- Refresh the page and note where the box is
+- Resize the window to a size you get scroll bars and scroll around
+- Note where the box is when you scroll
+- The box should have jumped 50px from the top and to the right of
+  the window
+
+- Pick the parent div of the #the-relative-box element and
+  give it an inline styling of relative
+
+    <div style="position: relative;">
+
+- Refresh the page and note where the box is
+- properties:
+  - does NOT remain in the normal document flow
+  - offset relative to the position of its closest non-statically
+    positioned parent
+- Adding the inline style made the row container the "closest non-statically
+  positioned parent," which is why the box moved
+- Commit your changes
+
+
+
+- read for more details: http://www.w3schools.com/cssref/pr_class_position.asp

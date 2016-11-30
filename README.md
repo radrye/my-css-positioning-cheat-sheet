@@ -69,3 +69,28 @@ Boilerplate for creating a CSS positioning cheat sheet
 - See http://www.w3schools.com/css/css_margin.asp on how to target each side
   of the elements individually
 - Commit your changes
+
+
+
+- block and inline are the standard display properties. Now there are new
+  types like inline-block and flexbox that help alleviate some of the
+  issues/restrictions of only have the two layouts, but those are more
+  advanced
+- To break out of the standard block (top to bottom) and inline
+  (left to right) flow, positioning can be used
+- "static" is the default positioning that is used if explicit positioning
+  is not set
+
+
+
+- Pick any box and give it an id of "the-fixed-box"
+- Add styling to set the background-color of this element to red
+  so it can be easily differentiated
+- Add styling to set the display value for this element to absolute
+- Note where you red box is
+- Refresh the page and resize it to a size you get scroll bars
+- Scroll around and see how the box moves relative to the page
+  - When positioned in a _fixed_ manner, an element:
+	- will NOT remain within the normal flow of the document.
+	- will be offset with respect to the window.
+	- will remain in place on scroll.

@@ -49,3 +49,12 @@ Boilerplate for creating a CSS positioning cheat sheet
 - See http://www.w3schools.com/cssref/pr_border-width.asp on how to target
   each side of the elements individualy
 - Commit your changes
+
+
+
+- Update the CSS to set the padding parameter to 10px
+- Note how the values in the box model changes in Chrome Developer Tools
+- Note how the distance between the text and the border is greater than before
+- Note how the entire box grows to accommodate the padding in addition to the
+  content size
+- Commit your changes

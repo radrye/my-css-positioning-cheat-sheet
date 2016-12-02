@@ -21,6 +21,12 @@
         position: relative;
         background-color: yellow;
       }
+      #the-absolute-box {
+        position: absolute;
+        background-color: green;
+        top: 50px;
+        left: 70px;
+      }
     </style>
   </head>
   <body>
@@ -30,11 +36,11 @@
       <div id="the-fixed-box" class="box">03</div>
       <div class="box">04</div>
     </div>
-    <div>
+    <div style="position: relative;">
       <div id="the-relative-box" class="box">05</div>
       <div class="box">06</div>
       <div class="box">07</div>
-      <div class="box">08</div>
+      <div id="the-absolute-box" class="box">08</div>
     </div>
     <div>
       <div class="box">09</div>
